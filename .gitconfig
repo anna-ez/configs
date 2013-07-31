@@ -1,5 +1,7 @@
 [user]
-	email = dzianis.sunny@gmail.com
-	name = dzianis
+    email = dzianis.sunny@gmail.com
+    name = vihryn
 [core]
-	editor = vim
+    editor = vim
+[merge]
+    tool = meld
