@@ -7,3 +7,5 @@
     tool = meld
 [mergetool]
     keepBackup = false
+[color]
+    ui = true
