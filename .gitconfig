@@ -1,11 +1,13 @@
 [user]
-    email = dzianis.sunny@gmail.com
-    name = vihryn
+	email = dzianis.tsishuk@upsilonit.com
+	name = vihryn 
 [core]
-    editor = vim
+	editor = vim
 [merge]
     tool = meld
 [mergetool]
-    keepBackup = false
+	keepBackup = false
 [color]
-    ui = true
+	ui = true
+[credential]
+	helper = cache --timeout=3600
