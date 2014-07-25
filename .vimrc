@@ -1,23 +1,26 @@
 " VUNDLE 
+
+set nocompatible	" be iMproved
 filetype off 
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-filetype plugin indent on 
+Plugin 'davidhalter/jedi-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'szw/vim-tags.git'
+Plugin 'bling/vim-airline'
+Plugin 'plasticboy/vim-markdown.git'
+Plugin 'rstacruz/sparkup'
+Plugin 'Raimondi/delimitMate'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/syntastic'
 
-Bundle 'davidhalter/jedi-vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'szw/vim-tags.git'
-Bundle 'bling/vim-airline'
-Bundle 'plasticboy/vim-markdown.git'
-Bundle 'rstacruz/sparkup'
-Bundle 'Raimondi/delimitMate'
-Bundle 'Shougo/neocomplcache.vim'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/syntastic'
+call vundle#end()       
+filetype plugin indent on
 
 " NERDTree
 let NERDTreeIgnore=['\.pyc$']
@@ -52,7 +55,6 @@ let g:tagbar_type_go = {
 	\}
 
 " Airline
-set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs"
 
