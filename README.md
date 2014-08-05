@@ -112,4 +112,4 @@ Rss следует отличать от выходного сопротивле
 [id2]:http://goo.gl/ADVxQz "Тепловая модель оптоэлектронного коммутатора К294КП2АП3, К294КП2ВП3"
 [id3]:http://goo.gl/N6JEuO "Упрощённая тепловая модель оптоэлектронного коммутатора"
 
-[logo1]:http://bit.ly/1srGRVc "P_{pac.dop}=\frac{T_{n.max}-T_{okp.cp.}}{ R_{t.kp.-cp}}" 
+[logo1]:http://latex.codecogs.com/gif.latex?%5Cfrac%7Bx%7D%7B1&plus;x%5E2%7D "P_{pac.dop}=\frac{T_{n.max}-T_{okp.cp.}}{ R_{t.kp.-cp}}" 
